@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>尾箱</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    
+    
+    <!--==================== UNICONS 图标====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v3.0.6/css/line.css"
+    />
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- iconfont font class 方式引用图标 -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://at.alicdn.com/t/c/font_3900458_82z46p85im.css"
+    /> -->
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header scroll-header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">BOOT</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>
+                <p i18n="home">Home</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>
+                <p i18n="about">About</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#interests" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>
+                <p i18n="interests">interests</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>
+                <p i18n="portfolio">Portfolio</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>
+                <p i18n="contact">Contactme</p>
+              </a>
+            </li>
+            <li class="nav__item">
+              <div class="nav__link" id="translate" value="en">
+                <svg class="icon nav__icon-svg" aria-hidden="true">
+                  <use xlink:href="#icon-fanyi"></use>
+                </svg>
+                <a class="=nav__link" id="nav__translate">Translate</a>
+              </div>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://gitee.com/asoutherncat/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <!-- <i class="uil uil-linkedin-alt"></i> -->
+                <svg
+                  t="1674798484640"
+                  viewBox="0 0 1024 1024"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="2757"
+                >
+                  <path
+                    d="M512 1024C229.222 1024 0 794.778 0 512S229.222 0 512 0s512 229.222 512 512-229.222 512-512 512z m259.149-568.883h-290.74a25.293 25.293 0 0 0-25.292 25.293l-0.026 63.206c0 13.952 11.315 25.293 25.267 25.293h177.024c13.978 0 25.293 11.315 25.293 25.267v12.646a75.853 75.853 0 0 1-75.853 75.853h-240.23a25.293 25.293 0 0 1-25.267-25.293V417.203a75.853 75.853 0 0 1 75.827-75.853h353.946a25.293 25.293 0 0 0 25.267-25.292l0.077-63.207a25.293 25.293 0 0 0-25.268-25.293H417.152a189.62 189.62 0 0 0-189.62 189.645V771.15c0 13.977 11.316 25.293 25.294 25.293h372.94a170.65 170.65 0 0 0 170.65-170.65V480.384a25.293 25.293 0 0 0-25.293-25.267z"
+                    fill="hsl(250deg 69% 61%)"
+                    p-id="2758"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="http://github.com"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+              <a
+                href="https://www.douyin.com/user/MS4wLjABAAAALH0vkkUJtm_SVEoLQKUuHwTqlRVR2nXZEcFCHajXapBww6s1zq2Hk_BZZ93TQ8HQ?from_tab_name=main"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <!-- <i class="uil uil-dribbble"></i> -->
+                <svg
+                  t="1674801734735"
+                  viewBox="0 0 48 48"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  p-id="4124"
+                >
+                  <path d="M21.358 19.1399C15.4694 18.8558 11.3762 20.9553 9.07838 25.4384C5.63169 32.163 8.48026 43.1666 19.9788 43.1666C31.4774 43.1666 31.81 32.0554 31.81 30.8914C31.81 30.1154 31.81 25.7764 31.81 17.8746C34.2694 19.4323 36.343 20.37 38.0308 20.6877C39.7186 21.0053 40.7915 21.1461 41.2497 21.11V14.6343C39.6886 14.4461 38.3386 14.0873 37.1997 13.5581C35.4913 12.7643 32.1037 10.5611 32.1037 7.33208C32.106 7.34787 32.106 6.51493 32.1037 4.83325H24.9857C24.9645 20.6493 24.9645 29.3353 24.9857 30.8914C25.0175 33.2255 23.2068 36.4905 19.5355 36.4905C15.8642 36.4905 14.0535 33.2281 14.0535 31.1239C14.0535 29.8357 14.496 27.9685 16.3251 26.5858C17.4098 25.7658 18.9153 25.4384 21.358 25.4384C21.358 24.6828 21.358 22.5833 21.358 19.1399Z" fill="none" stroke="#6E57E0" stroke-width="4" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </div>
+
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  
+                  <image
+                    class="home__blob-img"
+                    x="0"
+                    y="-30"
+                    xlink:href="assets/img/cat.png"
+                  />
+                </g>
+              </svg>
+            </div>
+
+            <div class="home__data">
+              <h1 class="home__title" i18n="home__title">
+                你好，我是尾箱
+              </h1>
+              <h3 class="home__subtitle" i18n="home__subtitle">
+                java练习生
+              </h3>
+              <p class="home__description" i18n="home__description">
+                我是一个喜欢思考，天马行空，喜欢尝试新事物的人，我很喜欢旅行，美食，音乐和电影，喜欢交朋友，和志同道合的人做喜欢的事。
+              </p>
+              <a href="#contact" class="button button-flex">
+                <span i18n="home__contact">Contact Me</span>
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
+              <span class="home__scroll-name" i18n="home__scroll-name"
+                >向下滑</span
+              >
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ME====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title" i18n="about__title">关于我</h2>
+        <span class="section__subtitle" i18n="about__subtitle"
+          >简单介绍
+        </span>
+        <div class="about__container container grid">
+          <img src="assets/img/about.png" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description" i18n="about__description">
+              我是一名大一的学生，在怀化学院主修计算机科学与技术专业，
+              对Java服务端开发感兴趣，喜欢跑步（每天3km），徒手健身
+              （30min），跳绳（2000个）。
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">0.5+</span>
+                <span class="about__info-name" i18n="about__info-name1">
+                  系统学习<br/>Java半年
+                </span>
+              </div>
+
+              <div>
+                <span class="about__info-title">2+</span>
+                <span class="about__info-name" i18n="about__info-name2">
+                  完整<br/>项目
+                </span>
+              </div>
+
+              <div>
+                <span class="about__info-title" i18n="about_condition">
+                  暂无
+                </span>
+                </span>
+                <span class="about__info-name" i18n="about__info-name3">
+                  实习<br/>履历
+                  </span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a
+                download=""
+                href="assets/pdf/简历.pdf"
+                class="button button--flex"
+              >
+                <span i18n="download">查看简历</span>
+                <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== hobbies and interests ====================-->
+      <section class="interests section" id="interests">
+        <h2 class="section__title" i18n="interests__title">兴趣爱好</h2>
+        <span class="section__subtitle" i18n="interests__subtitle"
+          >当前进度</span>
+
+        <div class="interests__container container grid">
+          <div>
+            <!--==================== interests 1 ====================-->
+            <div class="interests__content interests__open">
+              <div class="interests__header">
+                <i class="uil uil-brackets-curly interests__icon"></i>
+                <div>
+                  <h1 class="interests__title" i18n="home__subtitle">
+                    兴趣爱好
+                  </h1>
+                  <class="interests__subtitle" i18n="interests__targets">
+                    学习java解决客户端的请求和响应，高并发等实际问题。
+                  </span>               
+                </div>
+                <i class="uil uil-angle-down interests__arrow"></i>
+              </div>
+
+              <div class="interests__list grid">
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name">JavaSE</h3>
+                    <span class="interests__number">60%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__JavaSE"></div>
+                  </div>
+                </div>
+
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name">Maven</h3>
+                    <span class="interests__number">30%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__Maven"></div>
+                  </div>
+                </div>
+
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name">SpringBoot</h3>
+                    <span class="interests__number">20%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__SpringBoot"></div>
+                  </div>
+                </div>
+
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name">VUE</h3>
+                    <span class="interests__number">30%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__vue"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--==================== interests 2 ====================-->
+            <div class="interests__content interests__close">
+              <div class="interests__header">
+                <i class="uil uil-server-network interests__icon"></i>
+
+                <div>
+                  <h1 class="interests__title" i18n="interests__title2">
+                    徒手健身
+                  </h1>
+                  <span class="interests__subtitle" i18n="interests__years2"
+                    >健身半年</span
+                  >
+                </div>
+
+                <i class="uil uil-angle-down interests__arrow"></i>
+              </div>
+
+              <div class="interests__list grid">
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name" i18n="interests__subtitle1">跑步</h3>
+                    <span class="interests__number">100%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__running"></div>
+                  </div>
+                </div>
+
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name" i18n="interests__subtitle2">跳绳</h3>
+                    <span class="interests__number">50%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__rope-skipping"></div>
+                  </div>
+                </div>
+                
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name" i18n="interests__subtitle3">俯卧撑</h3>
+                    <span class="interests__number">50%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__push-ups"></div>
+                  </div>
+                </div>
+
+                <div class="interests__data">
+                  <div class="interests__titles">
+                    <h3 class="interests__name" i18n="interests__subtitle4">引体向上</h3>
+                    <span class="interests__number">50%</span>
+                  </div>
+                  <div class="interests__bar">
+                    <div class="interests__percentage interests__pull-ups"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title" i18n="qualification__title">
+          资历
+        </h2>
+        <span class="section__subtitle" i18n="qualification__subtitle">
+          个人履历
+        </span>
+        
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#education">
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              <span i18n="education">教育</span>
+            </div>
+
+            <div class="qualification__button button--flex" data-target="#work">
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              <span i18n="work">未来工作</span>
+            </div>
+          </div>
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="education"
+            >
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title" i18n="qualification1__title">
+                    计算机科学与技术
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification1__subtitle"
+                    >怀化学院
+                  </span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2024年9月 - ...
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title" i18n="qualification2__title">
+                    51单片机和stm32
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification2__subtitle">自学</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2025年3月 - 2025年4月
+                  </div>
+                </div>
+              </div>
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title" i18n="qualification3__title">
+                    java服务端
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification3__subtitle">自学</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    2025年4月 - ...
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+            </div>
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="work">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+                <div>
+                  <h3 class="qualification__title" i18n="qualification4__title">
+                    java工程师
+                  </h3>
+                  <span
+                    class="qualification__subtitle"
+                    i18n="qualification4__subtitle"
+                    >深圳</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    敬请期待！
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title" i18n="portfolio__title">项目集</h2>
+        <span class="section__subtitle" i18n="portfolio__subtitle">近期项目</span>
+        <div class="portfolio__container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--==================== PORTFOLIO 1 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio1__title">
+                  网站1
+                </h3>
+                <p
+                  class="portfolio__description"
+                  i18n="portfolio1__description"
+                >
+                  落魄谷中寒风吹，春秋蝉鸣少年归。
+                </p>
+                <a
+                  href="https://gitee.com/zwxnice"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 2 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio2.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio2__title">
+                  网站2
+                </h3>
+                <p
+                  class="portfolio__description"
+                  i18n="portfolio2__description"
+                >
+                  荡魂山处石人泪，定仙游走魔向北。
+                </p>
+                <a
+                  href="https://github.com/zwxnice"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 3 ====================-->
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/portfolio3.jpg"
+                alt=""
+                class="portfolio__img"
+              />
+
+              <div class="portfolio_">
+                <h3 class="portfolio__title" i18n="portfolio3__title">
+                  网站3
+                </h3>
+                <p
+                  class="portfolio__description"
+                  i18n="portfolio3__description"
+                >
+                  逆流和上万仙退，爱情不敌坚持泪。
+                </p>
+                <a
+                  href="https://www.douyin.com/user/MS4wLjABAAAALH0vkkUJtm_SVEoLQKUuHwTqlRVR2nXZEcFCHajXapBww6s1zq2Hk_BZZ93TQ8HQ?from_tab_name=main"
+                  target="_blank"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- add arrows-->
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title" i18n="contact__title">联系方式</h2>
+        <span class="section__subtitle" i18n="contact__subtitle">与我联系</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone-alt contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="tel">电话</h3>
+                <span class="contact__subtitle" i18n="tel__number">保密</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="email">电子邮箱</h3>
+                <span class="contatc__subtitle" i18n="email__address">zwx_20062024@qq.com</span>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title" i18n="location">位置</h3>
+                <span class="contatc__subtitle" i18n="location__detail">湖南省</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Tailbox</h1>
+            <span class="footer__subtitle" i18n="home__subtitle">java练习生</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#interests" class="footer__link" i18n="interests">技能</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer__link" i18n="portfolio">项目集</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link" i18n="contact">联系方式</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://gitee.com/asoutherncat/" target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-gitee"></use>
+              </svg>
+            </a>
+            <a href="http://github.com" target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-github"></use>
+              </svg>
+            </a>
+            <a href="https://www.douyin.com/user/MS4wLjABAAAALH0vkkUJtm_SVEoLQKUuHwTqlRVR2nXZEcFCHajXapBww6s1zq2Hk_BZZ93TQ8HQ?from_tab_name=main" target="_blank">
+              <svg class="icon footer__social" aria-hidden="true">
+                <use xlink:href="#icon-douyin-line"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">
+          &#169; Tailbox.Copy from
+          <a
+            class="footer__copy"
+            href="https://www.youtube.com/c/Bedimcode"
+            target="_blank"
+            >Bedimcode</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- iconfont JS -->
+    <script src="assets/js/iconfont.js"></script>
+    <!-- jquery -->
+    <script src="assets/js/jquery2.1.4.min.js"></script>
+    <script src="assets/js/jquery.i18n.min.js"></script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- translate JS -->
+    <script src="assets/js/cn-en-translate.js"></script>
+  </body>
+</html>
